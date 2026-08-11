@@ -93,7 +93,7 @@ The notebook initially shows `Order Date`, `Ship Date`, and `Sales` as object-ty
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 The project uses:
 
