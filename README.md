@@ -298,11 +298,11 @@ Based on the analysis results obtained from the project:
 | Total Orders        |         3,500 |
 | Average Order Value |     $1,513.40 |
 
-### Category Performance
+## Category Performance
 
-**Technology** is the highest-selling category with sales of approximately:
+Technology is the highest-selling category with sales of approximately:
 
-**$3,447,751.75**
+$3,447,751.75
 
 ### Regional Sales
 
@@ -315,21 +315,21 @@ The regional sales results show:
 | East    | $1,333,694.80 |
 | South   | $1,248,698.69 |
 
-### Best Sales Month
+## Best Sales Month
 
 The best Year-Month identified in the analysis is:
 
-**December 2023 — $355,100.78**
+December 2023 — $355,100.78
 
 The best calendar month across all years is:
 
-**December — $843,468.20**
+December — $843,468.20
 
-### Discount and Profit
+## Discount and Profit
 
 The analysis shows a negative correlation between discount and profit:
 
-**Correlation = -0.416**
+Correlation = -0.416
 
 This indicates that, within this analysis, higher discounts tend to be associated with lower profit.
 
@@ -339,7 +339,7 @@ This indicates that, within this analysis, higher discounts tend to be associate
 
 The project creates visualizations including:
 
-### Monthly Sales
+## Monthly Sales
 
 A line chart showing sales trends over time.
 
@@ -347,11 +347,11 @@ A line chart showing sales trends over time.
 
 A bar chart comparing sales across categories.
 
-### Profit by Region
+## Profit by Region
 
 A bar chart comparing profit across regions.
 
-### Top 10 Products
+## Top 10 Products
 
 A horizontal bar chart showing the products with the highest sales.
 
@@ -363,17 +363,17 @@ These visualizations make the results easier to understand and communicate.
 
 The analysis provides several useful observations:
 
-1. **Technology is the strongest sales category**, generating the highest revenue among the analyzed categories.
+1. Technology is the strongest sales category, generating the highest revenue among the analyzed categories.
 
-2. **Central region has the highest regional sales** among the four regions.
+2. Central region has the highest regional sales among the four regions.
 
-3. **Central region also has the highest total profit** in the provided regional analysis.
+3. Central region also has the highest total profit in the provided regional analysis.
 
-4. **December is the strongest calendar month**, indicating stronger sales performance during this period.
+4. December is the strongest calendar month, indicating stronger sales performance during this period.
 
-5. The top-selling products are mainly **laptop products**, which dominate the top 10 product list.
+5. The top-selling products are mainly laptop products, which dominate the top 10 product list.
 
-6. The **negative discount-profit correlation (-0.416)** suggests that increasing discounts may reduce profitability.
+6. The negative discount-profit correlation (-0.416) suggests that increasing discounts may reduce profitability.
 
 7. State-level analysis can be used to identify high-performing geographical markets.
 
@@ -447,7 +447,7 @@ This allows the project to work on different computers without changing the user
 
 ---
 
-# 🎓 Project Purpose
+#  Project Purpose
 
 This project demonstrates practical skills in:
 
