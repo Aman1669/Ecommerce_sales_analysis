@@ -1,0 +1,138 @@
+E-COMMERCE SALES ANALYSIS – BUSINESS INSIGHTS
+
+1. OVERALL PERFORMANCE
+
+Total Sales      : $5,296,907.13
+Total Profit     : $534,110.89
+Total Orders     : 3,500
+Average Order Value : $1,513.40
+
+The business generated approximately $5.30 million in sales
+and $534K in profit from 3,500 orders.
+
+Approximate Profit Margin: 10.08%
+
+
+2. CATEGORY INSIGHT
+
+Technology is the highest-selling category.
+
+Technology Sales: $3,447,751.75
+
+Insight:
+Technology is the strongest category and is the main contributor
+to overall revenue.
+
+Recommendation:
+Focus on high-performing Technology products and maintain
+sufficient inventory for these products.
+
+
+3. REGIONAL SALES INSIGHT
+
+Central Region : $1,377,785.78
+West Region    : $1,336,727.86
+East Region    : $1,333,694.80
+South Region   : $1,248,698.69
+
+Insight:
+Central is the highest-performing region by sales.
+
+The South region has the lowest sales among the four regions.
+
+Recommendation:
+Continue strong business activities in Central while investigating
+ways to improve sales performance in the South region.
+
+
+4. MONTHLY SALES INSIGHT
+
+Best Year-Month:
+December 2023 = $355,100.78
+
+Best Calendar Month:
+December = $843,468.20
+
+Insight:
+December is the strongest sales month in the analysis.
+
+Recommendation:
+The business should prepare inventory and marketing campaigns
+before the December period to take advantage of higher demand.
+
+
+5. PRODUCT INSIGHT
+
+The Top 10 products by sales are mainly laptop products.
+
+Insight:
+Laptop-related products are important revenue-generating
+products in the dataset.
+
+Recommendation:
+Focus on inventory planning and marketing for high-performing
+laptop products.
+
+
+6. DISCOUNT AND PROFIT INSIGHT
+
+Discount-Profit Correlation = -0.416
+
+Insight:
+There is a negative correlation between discount and profit.
+Higher discounts tend to be associated with lower profit in
+this dataset.
+
+Important:
+Correlation does not prove that discounts directly cause lower
+profit.
+
+Recommendation:
+The business should carefully control high discount levels
+and analyze profit margins before offering large discounts.
+
+
+7. KEY BUSINESS FINDINGS
+
+1. Technology is the strongest sales category.
+2. Central is the highest-performing region by sales.
+3. Central also has the highest total profit.
+4. December is the strongest calendar month.
+5. Laptop products dominate the top-selling product list.
+6. Higher discounts are associated with lower profit.
+7. South is the lowest-performing region by sales.
+
+
+8. BUSINESS RECOMMENDATIONS
+
+1. Focus on high-performing Technology products.
+2. Maintain sufficient inventory for popular laptop products.
+3. Prepare additional inventory before December.
+4. Increase marketing during high-demand periods.
+5. Investigate ways to improve sales in the South region.
+6. Avoid unnecessarily high discount levels.
+7. Monitor profit margins when creating promotional offers.
+8. Use state-level analysis to identify strong and weak markets.
+
+
+9. PROJECT CONCLUSION
+
+The E-Commerce Sales Analysis shows that the business generated
+$5.30 million in sales and $534K in profit across 3,500 orders.
+
+Technology was the strongest category, while Central was the
+strongest region. December showed the highest overall monthly
+sales performance. Laptop products were prominent among the
+top-selling products.
+
+The negative discount-profit correlation of -0.416 suggests
+that higher discounts are associated with lower profitability.
+
+Overall, the business should focus on high-performing products
+and regions, prepare for seasonal demand, improve weaker markets,
+and carefully manage discounts to protect profitability.
+
+
+Source:
+E-Commerce Sales Analysis Project
+Author: Aman Rana
