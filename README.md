@@ -1,6 +1,6 @@
-# E-Commerce Sales Analysis
+ E-Commerce Sales Analysis
 
-##  Project Overview
+ Project Overview
 
 This project performs an **E-Commerce Sales Analysis** using Python and Jupyter Notebook.
 
@@ -17,9 +17,9 @@ The main purpose of this project is to clean and analyze the sales data and iden
 * State-level sales
 * Discount and profit relationships
 
----
 
-##  Project Objectives
+
+ Project Objectives
 
 The main objectives of this project are:
 
@@ -35,11 +35,9 @@ The main objectives of this project are:
 10. Analyze the relationship between discount and profit.
 11. Create charts to communicate important business insights.
 
----
+ Project Structure
 
-## Project Structure
-
-```text
+text
 Ecommerce-Sales-Analysis/
 │
 ├── Ecommerce_Sales_Analysis.ipynb
@@ -57,13 +55,11 @@ The main Jupyter Notebook containing the complete data analysis, data cleaning, 
 
 The dataset used for the analysis.
 
-**`README.md`**
+README.md
 
 Project documentation explaining the dataset, methodology, analysis, and results.
 
----
-
-## Dataset
+ Dataset
 
 The dataset contains **4,213 records and 17 original columns** in the notebook.
 
@@ -91,24 +87,23 @@ The original columns include:
 
 The notebook initially shows `Order Date`, `Ship Date`, and `Sales` as object-type fields, which are then processed during data preparation.
 
----
 
-## Technologies Used
+
+Technologies Used
 
 The project uses:
 
-* **Python**
-* **Jupyter Notebook**
-* **Pandas**
-* **NumPy**
-* **Matplotlib**
-* **Seaborn**
+Python
+Jupyter Notebook
+Pandas
+NumPy
+ Matplotlib
+Seaborn
 
 Pandas and NumPy are imported at the beginning of the notebook for data manipulation and numerical analysis.
 
----
 
-## Data Analysis Workflow
+ Data Analysis Workflow
 
 The project follows these major steps:
 
@@ -132,9 +127,9 @@ Data Visualization
 Business Insights
 ```
 
----
 
-## Data Cleaning
+
+ Data Cleaning
 
 The dataset is inspected for:
 
@@ -148,6 +143,7 @@ The dataset is inspected for:
 The notebook checks the structure and data types using methods such as:
 
 ```python
+
 df.info()
 ```
 
@@ -161,7 +157,7 @@ The notebook also performs duplicate checking using business-related columns.
 
 ---
 
-##  Date Feature Engineering
+  Date Feature Engineering
 
 The original `Order Date` field is converted into a datetime format.
 
@@ -189,9 +185,9 @@ Year Month  → 2024-02
 
 ---
 
-#  Business Analysis
+ Business Analysis
 
-## 1. Monthly Sales
+1. Monthly Sales
 
 Monthly sales are analyzed to understand sales trends over time.
 
@@ -199,9 +195,9 @@ The analysis uses the `Year Month` field to organize sales chronologically.
 
 The project also uses a line chart to visualize monthly sales trends.
 
----
 
-## 2. Sales by Category
+
+2. Sales by Category
 
 Sales are grouped by product category to identify which categories generate the most revenue.
 
@@ -213,9 +209,8 @@ df.groupby("Category")["Sales"].sum()
 
 A bar chart is used to visualize category-level sales performance.
 
----
 
-## 3. Sales by Region
+ 3. Sales by Region
 
 Sales are analyzed across different geographical regions.
 
@@ -228,9 +223,9 @@ The regions include:
 
 This analysis helps compare revenue performance across regions.
 
----
 
-## 4. Profit by Region
+
+4. Profit by Region
 
 Profit is grouped by region to identify which geographical areas contribute most to overall profitability.
 
@@ -242,9 +237,9 @@ df.groupby("Region")["Profit"].sum()
 
 A bar chart is created to visualize the results.
 
----
 
-## 5. Top 10 Products by Sales
+
+ 5. Top 10 Products by Sales
 
 The project identifies the top 10 products based on total sales.
 
@@ -272,7 +267,7 @@ This analysis can help identify locations with higher sales performance.
 
 ---
 
-## 7. Discount and Profit Analysis
+ 7. Discount and Profit Analysis
 
 The project investigates how discounts affect profitability.
 
@@ -287,7 +282,7 @@ The purpose is to determine whether higher discounts are associated with lower p
 
 ---
 
-#  Key Results
+  Key Results
 
 Based on the analysis results obtained from the project:
 
@@ -298,13 +293,13 @@ Based on the analysis results obtained from the project:
 | Total Orders        |         3,500 |
 | Average Order Value |     $1,513.40 |
 
-## Category Performance
+Category Performance
 
 Technology is the highest-selling category with sales of approximately:
 
 $3,447,751.75
 
-### Regional Sales
+Regional Sales
 
 The regional sales results show:
 
@@ -315,7 +310,7 @@ The regional sales results show:
 | East    | $1,333,694.80 |
 | South   | $1,248,698.69 |
 
-## Best Sales Month
+ Best Sales Month
 
 The best Year-Month identified in the analysis is:
 
@@ -325,7 +320,7 @@ The best calendar month across all years is:
 
 December — $843,468.20
 
-## Discount and Profit
+Discount and Profit
 
 The analysis shows a negative correlation between discount and profit:
 
@@ -335,15 +330,15 @@ This indicates that, within this analysis, higher discounts tend to be associate
 
 ---
 
-#  Visualizations
+  Visualizations
 
 The project creates visualizations including:
 
-## Monthly Sales
+ Monthly Sales
 
 A line chart showing sales trends over time.
 
-### Sales by Category
+ Sales by Category
 
 A bar chart comparing sales across categories.
 
@@ -351,7 +346,7 @@ A bar chart comparing sales across categories.
 
 A bar chart comparing profit across regions.
 
-## Top 10 Products
+Top 10 Products
 
 A horizontal bar chart showing the products with the highest sales.
 
@@ -359,7 +354,7 @@ These visualizations make the results easier to understand and communicate.
 
 ---
 
-#  Business Insights
+ Business Insights
 
 The analysis provides several useful observations:
 
@@ -377,9 +372,8 @@ The analysis provides several useful observations:
 
 7. State-level analysis can be used to identify high-performing geographical markets.
 
----
 
-#  How to Run the Project
+ How to Run the Project
 
 ## Step 1: Install Python
 
@@ -393,7 +387,7 @@ Open Anaconda Prompt or Command Prompt and run:
 pip install pandas numpy matplotlib seaborn jupyter
 ```
 
-## Step 3: Open Jupyter Notebook
+Step 3: Open Jupyter Notebook
 
 Run:
 
@@ -401,7 +395,7 @@ Run:
 jupyter notebook
 ```
 
-## Step 4: Open the Project
+Step 4: Open the Project
 
 Open:
 
@@ -409,7 +403,7 @@ Open:
 Ecommerce_Sales_Analysis.ipynb
 ```
 
-## Step 5: Keep the Dataset in the Project Folder
+ Step 5: Keep the Dataset in the Project Folder
 
 Make sure:
 
@@ -419,15 +413,15 @@ sales.csv
 
 is available to the notebook.
 
-## Step 6: Run the Notebook
+Step 6: Run the Notebook
 
 Run the notebook cells from top to bottom.
 
 This is important because the notebook creates new columns such as `Order Month`, `Order Year`, `Month Name`, and `Year Month` during the analysis.
 
----
 
-#  Important Note
+
+ Important Note
 
 The notebook uses a local file path to load the CSV dataset. For example:
 
@@ -445,9 +439,9 @@ df = pd.read_csv("sales.csv")
 
 This allows the project to work on different computers without changing the user's personal folder path.
 
----
 
-#  Project Purpose
+
+ Project Purpose
 
 This project demonstrates practical skills in:
 
@@ -465,9 +459,9 @@ This project demonstrates practical skills in:
 
 It can be used as a portfolio project or as part of a data analytics internship submission.
 
----
 
-#  Author
+
+ Author
 
 Aman Rana
 
